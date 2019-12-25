@@ -55,7 +55,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CheckUtilsTest.testArray">
+    <configuration name="CheckUtilsTest.testArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javaUtils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="testArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckUtilsTest.testEqualString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javaUtils" />
       <extension name="coverage">
@@ -76,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckUtilsTest.testArray" />
         <item itemvalue="TestNG.CheckUtilsTest.testEqualString" />
       </list>
     </recent_temporary>
@@ -102,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577243676362</updated>
-      <workItem from="1577243681006" duration="3842000" />
+      <workItem from="1577243681006" duration="6349000" />
     </task>
     <servers />
   </component>
