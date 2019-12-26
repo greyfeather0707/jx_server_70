@@ -7,6 +7,7 @@ import java.awt.*;
 import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.Arrays;
+import java.util.Random;
 
 public class ArrayTest {
 
@@ -73,11 +74,50 @@ public class ArrayTest {
         // 随机给每⼀位赋值⼀个 0 ~ 100 之间的数值，
         // 然后对该数组进⾏排序
         // 并打印排序结果。
+        int[] arr=new int[100];
+        for (int index=0;index<arr.length;index++){
+            arr[index]=new Random().nextInt(100);
+        }
+
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    @Test
+    public void testMultiArray(){
+        //示例： 定义⼀个⼆维数组，
+        // 第⼀维表示⽤户，
+        // 第⼆维表示⽤户的具体信息（1 . 编码, 2. 姓名, 3.性别, 4.年龄） 。
+        // 定义赋值并打印。
+
+        String[][] users=new String[5][];
+        users[0]=new String[4];
+        users[0][0]="001";
+        users[0][1]="张三";
+        users[0][2]="男";
+        users[0][3]="25";
+
+        users[1]=new String[3];
+        users[1][0]="002";
+        users[1][1]="李四";
+        users[1][2]="女";
+        //users[1][3]="未知";
+
+        for(int index=0;index<users.length;index++) {
+            System.out.println(Arrays.toString(users[index]));
+        }
+
+        for(String[] user:users){
+            System.out.println(Arrays.toString(user));
+        }
+
+        Arrays.asList(users).forEach(user-> System.out.println(Arrays.toString(user)));
+
+
+
 
 
     }
-
-
 
 
 
