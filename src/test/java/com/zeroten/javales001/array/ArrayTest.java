@@ -112,14 +112,50 @@ public class ArrayTest {
         }
 
         Arrays.asList(users).forEach(user-> System.out.println(Arrays.toString(user)));
+    }
 
 
+    public int[] twoSum(int[] nums,int target){
+        for (int index=0;index<nums.length-1;index++){
+            for (int twoIndex=index+1;twoIndex<nums.length-1;twoIndex++ ){
+                if (nums[index]+nums[twoIndex]==target){
+                    return new int[] {index,twoIndex};
+                }
+            }
+        }
+        return null;
 
+    }
 
+    public int[] twoSum2(int[] nums,int target){
+
+        Arrays.sort(nums);
+        for (int index=0;index<nums.length-1;index++){
+            if (nums[index]>=target){
+                return null;
+            }
+            for (int twoIndex=index+1;twoIndex<nums.length-1;twoIndex++ ){
+                if (nums[twoIndex]>target){
+                    break;
+                }
+                if (nums[index]+nums[twoIndex]==target){
+                    return new int[] {index,twoIndex};
+                }
+            }
+        }
+        return null;
 
     }
 
 
+
+    @Test
+    public  void testTwoSum(){
+        int[] intArray={2,3,4,8,7,11,15};
+        int target=9;
+        System.out.println(Arrays.toString(twoSum(intArray,target)));
+
+    }
 
 
 
