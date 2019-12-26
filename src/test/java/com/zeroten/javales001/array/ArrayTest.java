@@ -52,4 +52,54 @@ public class ArrayTest {
         System.out.println(Arrays.toString(arr1));
 
     }
+
+
+
+    @Test
+    public void testFill(){
+        //创建一个长度为 10 内容全为5的int数组，并打印
+        //将数组后3位改为3，再打印
+        int[] arr=new int[10];
+        Arrays.fill(arr,5);
+        System.out.println(Arrays.toString(arr));
+
+        Arrays.fill(arr,arr.length-3,arr.length,3);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    @Test
+    public void testSort(){
+        //示例：定义⼀个⼤⼩为 100 的 int 数组，
+        // 随机给每⼀位赋值⼀个 0 ~ 100 之间的数值，
+        // 然后对该数组进⾏排序
+        // 并打印排序结果。
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
