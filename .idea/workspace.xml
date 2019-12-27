@@ -63,18 +63,44 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ArrayTest.testMultiArray">
-    <configuration name="ArrayTest.testArrayBianli (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ClassCreateTest">
+    <configuration name="ClassCreateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.classobject.ClassCreateTest" />
       <module name="jx_server_70" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.javales001.array.*" />
+          <option name="PATTERN" value="com.zeroten.javales001.classobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.javales001.array" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.array.ArrayTest" />
-      <option name="METHOD_NAME" value="testArrayBianli" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassStaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.classobject.ClassStaticTest" />
+      <module name="jx_server_70" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.javales001.classobject.sub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAccess2.testPkgAccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jx_server_70" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.javales001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zeroten.javales001.classobject" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.classobject.ClassAccess2" />
+      <option name="METHOD_NAME" value="testPkgAccess" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,17 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testArrayCopy" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassAccess3.TestAcl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jx_server_70" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.javales001.array.*" />
+          <option name="PATTERN" value="com.zeroten.javales001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.javales001.array" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.array.ArrayTest" />
-      <option name="METHOD_NAME" value="testArrayCopy" />
+      <option name="PACKAGE_NAME" value="com.zeroten.javales001" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.ClassAccess3" />
+      <option name="METHOD_NAME" value="TestAcl" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,53 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayTest.testFill" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javaUtils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.javales001.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.javales001.array" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.array.ArrayTest" />
-      <option name="METHOD_NAME" value="testFill" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest.testMultiArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassAccess.testInnerAct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jx_server_70" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.javales001.array.*" />
+          <option name="PATTERN" value="com.zeroten.javales001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.javales001.array" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.array.ArrayTest" />
-      <option name="METHOD_NAME" value="testMultiArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest.testSort" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jx_server_70" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.javales001.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.javales001.array" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.array.ArrayTest" />
-      <option name="METHOD_NAME" value="testSort" />
+      <option name="PACKAGE_NAME" value="com.zeroten.javales001.classobject" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.javales001.classobject.ClassAccess" />
+      <option name="METHOD_NAME" value="testInnerAct" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ArrayTest.testMultiArray" />
-        <item itemvalue="TestNG.ArrayTest.testSort" />
-        <item itemvalue="TestNG.ArrayTest.testFill" />
-        <item itemvalue="TestNG.ArrayTest.testArrayCopy" />
-        <item itemvalue="TestNG.ArrayTest.testArrayBianli (1)" />
+        <item itemvalue="Application.ClassCreateTest" />
+        <item itemvalue="Application.ClassStaticTest" />
+        <item itemvalue="TestNG.ClassAccess3.TestAcl" />
+        <item itemvalue="TestNG.ClassAccess2.testPkgAccess" />
+        <item itemvalue="TestNG.ClassAccess.testInnerAct" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +179,7 @@
       <workItem from="1577243681006" duration="9098000" />
       <workItem from="1577321015440" duration="1889000" />
       <workItem from="1577325342946" duration="1437000" />
+      <workItem from="1577344750936" duration="13823000" />
     </task>
     <servers />
   </component>
@@ -204,42 +195,51 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577243817428" />
-    <state width="914" height="295" key="GridCell.Tab.0.bottom" timestamp="1577331088829">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="221" key="GridCell.Tab.0.bottom" timestamp="1577418471007">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1577325810602" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577267336252" />
     <state width="723" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577328089941" />
+    <state width="723" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577418471007" />
     <state width="914" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577331088829" />
-    <state width="914" height="295" key="GridCell.Tab.0.center" timestamp="1577331088829">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="221" key="GridCell.Tab.0.center" timestamp="1577418471007">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1577325810600" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577267336252" />
     <state width="723" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577328089941" />
+    <state width="723" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1577418471007" />
     <state width="914" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577331088829" />
-    <state width="914" height="295" key="GridCell.Tab.0.left" timestamp="1577331088829">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="221" key="GridCell.Tab.0.left" timestamp="1577418471007">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1577325810600" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577267336252" />
     <state width="723" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577328089941" />
+    <state width="723" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1577418471007" />
     <state width="914" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577331088828" />
-    <state width="914" height="295" key="GridCell.Tab.0.right" timestamp="1577331088829">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="221" key="GridCell.Tab.0.right" timestamp="1577418471007">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1577325810600" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577267336252" />
     <state width="723" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577328089941" />
+    <state width="723" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1577418471007" />
     <state width="914" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577331088829" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1577330419580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577330419580" />
-    <state x="539" y="-897" width="840" height="856" key="search.everywhere.popup" timestamp="1577326166537">
-      <screen x="0" y="-1080" width="1920" height="1040" />
+    <state x="71" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1577344751464">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="71" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1577344751464" />
+    <state x="430" y="152" width="672" height="712" key="search.everywhere.popup" timestamp="1577410292853">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="539" y="-897" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1577326166537" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577261954698" />
+    <state x="430" y="152" width="672" height="712" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1577410292853" />
   </component>
 </project>
